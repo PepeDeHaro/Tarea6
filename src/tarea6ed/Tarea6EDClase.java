@@ -12,7 +12,7 @@ public class Tarea6EDClase {
     public void aplicarDescuento(double precioProducto, int numProductos){     double TotalRefactor;
     if(numProductos>3)
         precioProducto-=5;
-            if (numProductos!=0){
+            if (numProductos!=0 ){
             TotalRefactor = precioProducto*descuento_menor;
             Imprime(TotalRefactor);
         }else {
